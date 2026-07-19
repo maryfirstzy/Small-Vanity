@@ -128,7 +128,7 @@ void searchWorker16Bit(std::string prefix, int thread_id) {
 }
 
 int main() {
-    std::string target_prefix = "BITCOINUP"; 
+    std::string target_prefix = "1dice8EMZmqKvrGE4Qc9bUFf9PX3xaYDp"; 
     unsigned int threads = std::thread::hardware_concurrency();
     
     std::cout << "🚀 Starting 16-Bit Optimized Vanity Generator...\n";
