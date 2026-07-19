@@ -151,7 +151,7 @@ int main() {
         double speed = current_count / elapsed.count();
         
         std::cout << "\r⚡ Speed: " << std::fixed << std::setprecision(2) 
-                  << (speed / 100000.0) << " kkeys/s | Total checked: " << current_count 
+                  << (speed / 1000.0) << " kkeys/s | Total checked: " << current_count 
                   << " | Time: " << (int)elapsed.count() << "s" << std::flush;
     }
 
