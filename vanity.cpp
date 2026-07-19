@@ -128,7 +128,7 @@ void searchWorker16Bit(std::string prefix, int thread_id) {
 }
 
 int main() {
-    std::string target_prefix = "1dice8EMZmqKvrGE4Qc9bUFf9PX3xaYDp"; 
+    std::string target_prefix = "RoseCross"; 
     unsigned int threads = std::thread::hardware_concurrency();
     
     std::cout << "🚀 Starting 16-Bit Optimized Vanity Generator...\n";
@@ -151,7 +151,7 @@ int main() {
         double speed = current_count / elapsed.count();
         
         std::cout << "\r⚡ Speed: " << std::fixed << std::setprecision(2) 
-                  << (speed / 1000.0) << " kkeys/s | Total checked: " << current_count 
+                  << (speed / 100000.0) << " kkeys/s | Total checked: " << current_count 
                   << " | Time: " << (int)elapsed.count() << "s" << std::flush;
     }
 
